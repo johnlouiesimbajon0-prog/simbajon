@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #12203f 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px 80px;
+}
+
+.portfolio-label {
+    letter-spacing: 5px;
+    color: #d1d5db;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid rgba(139, 92, 246, 0.3);
+    overflow: hidden;
+    margin: 0 auto 25px;
+    background: #1e294b;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #93c5fd;
+    font-size: 1.7rem;
+    margin-bottom: 40px;
+}
+
+/* ✅ BUTTON STYLES — EXACTLY SAME LOOK, NOW LINKS */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 16px 50px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s;
+    position: relative;
+    z-index: 10; /* Ensure touchable */
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    color: white;
+}
+
+.btn-secondary {
+    background: rgba(55, 65, 81, 0.6);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.prompt-text {
+    font-size: 1.4rem;
+    color: #d1d5db;
+    margin-bottom: 25px;
+}
+
+.down-btn {
+    width: 70px;
+    height: 70px;
+    background: rgba(139, 92, 246, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 25px 50px;
+}
+
+.section {
+    margin-bottom: 55px;
+}
+
+.section-title {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.section-title::before {
+    content: "";
+    width: 5px;
+    height: 30px;
+    background-color: #8b5cf6;
+    border-radius: 3px;
+}
+
+.text-card {
+    background-color: rgba(30, 41, 75, 0.6);
+    padding: 30px;
+    border-radius: 16px;
+    font-size: 1.25rem;
+    color: #e5e7eb;
+}
+
+.hobby-card {
+    background-color: rgba(30, 41, 75, 0.45);
+    padding: 35px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+}
+
+.hobby-blue { border-color: rgba(96, 165, 250, 0.3); }
+.hobby-green { border-color: rgba(52, 211, 153, 0.3); }
+.hobby-red { border-color: rgba(248, 113, 113, 0.3); }
+
+.icon {
+    display: block;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #9ca3af;
+    background-color: rgba(15, 23, 42, 0.6);
+}
